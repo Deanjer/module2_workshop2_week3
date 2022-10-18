@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coolblue</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coolblue_Logo.svg/2048px-Coolblue_Logo.svg.png">
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <img
+          class="logoblue1"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coolblue_Logo.svg/2048px-Coolblue_Logo.svg.png"
+        />
+      </div>
+      <div id="content">
+        <br />
+        <span id="gegevens"><b>JE GEGEVENS</b></span
+        ><span id="punt"><b>.</b></span
+        ><br />
+        <span id="vraag-titel">Wat moet er op de factuur staan?</span>
+        <form action="">
+          <label for="typebestelling">Type bestelling:</label>
+          <input
+            type="radio"
+            id="particulier"
+            name="selection"
+            value="particulier"
+          />
+          <label for="particulier">particulier</label>
+          <input type="radio" id="zakelijk" name="selection" value="zakelijk" />
+          <label for="zakelijk">zakelijk</label>
+          <br />
+          <label for="aanhef">Aanhef:</label>
+          <input type="radio" id="Dhr." name="selection-2" value="Dhr." />
+          <label for="Dhr.">Dhr.</label>
+          <input type="radio" id="Mevr." name="selection-2" value="Mevr." />
+          <label for="Mevr.">Mevr.</label>
+          <br />
+          <label>Naam</label>
+          <label for="voornaam"></label
+          ><input
+            id="voornaam"
+            type="text"
+            name="voornaam:"
+            placeholder="Voornaam*"
+          /><label for="tussenv"></label
+          ><input type="text" name="tussenv:" placeholder="Tussenv*" id="tussv"/><label
+            for="achternaam"
+          ></label
+          ><input type="text" name="Achternaam:" placeholder="Achternaam*" />
+          <br />
+          <label>Postcode</label>
+          <input type="text" name="Postcode:" placeholder="1234AB*" />
+          <br />
+          <label>Huisnummer</label>
+          <input type="text" name="Nr." placeholder="Nr." id="nr-box" />
+          <input type="text" name="Toev." placeholder="Toev." id="nr-box" />
+          <br>
+          <label>Land</label>
+            <select>
+              <option>Nederland</option>
+              <option>België</option>
+              <option>Duitsland</option>
+              <option>Frankrijk</option>
+              <option>Verenigd Koninkrijk</option>
+              <option>Ierland</option>
+              <option>Polen</option>
+              <option>Luxemburg</option>
+              <option>Italië</option>
+              <option>Spanje</option>
+              <option>Portugal</option>
+              <option>Griekenland</option>
+              <option>Oostenrijk</option>
+              <option>Tsjechië</option>
+              <option>Slowakije</option>
+              <option>Malta</option>
+              <option>Cyprus</option>
+              <option>Letland</option>
+              <option>Estland</option>
+              <option>Lithouwen</option>
+              <option>Noorwegen</option>
+              <option>Zweden</option>
+              <option>Finland</option>
+              <option>Roemenië</option>
+              <option>Hongarije</option>
+              <option>Armenië</option>
+              <option>Albanië</option>
+              <option>Montenegro</option>
+              <option>Bulgarije</option>
+              <option>Bosnië</option>
+              <option>Monaco</option>
+              <option>Vaticaan Stad</option>
+              <option>San Marino</option>
+              <option>Andorra</option>
+              <option>Oekraiëne</option>
+            </select>
+            <br>
+            <label for="Afleveradres">Afleveradres</label>
+          <input type="radio" id="op boven staande adres" name="selection-3" value="op boven staande adres" />
+          <label for="op boven staande adres">Op bovenstaan adres bezorgen</label>
+          <input type="radio" id="Op ander adres bezorgen" name="selection-3" value="Op ander adres bezorgen" />
+          <label for="Op ander adres bezorgen">Op ander adres bezorgen</label>
+          <br>
+          <label>E-mailadres</label>
+          <input type="text" name="emailadres" />
+          <br>
+          <label>Telefoonnummer</label>
+          <input type="text" name="Telefoonnummer" />
+          <br>
+          <label>Geboortedatum</label>
+          <input type="date" name="Datum" />
+          <br>
+          <label >Verzendwijze factuur</label>
+          <input type="radio" id="Factuur per email" name="selection-4" value="Factuur per email" />
+          <label for="Factuur per email">Factuur per email</label>
+          <input type="radio" id="Factuur geprint bij bestelling" name="selection-4" value="actuur geprint bij bestelling" />
+          <label for="actuur geprint bij bestelling">factuur geprint bij bestelling</label>
+          <br>
+          <span>Nieuwsbrief</span><input type="checkbox" name="Akkoord" id="akkord">
+          <label>Ja, ik wilde Coolblue-nieuwsbrief met </label><label id="color-orange">&euro;5,- cadeaubon</label><label> voor mijn volgende bestelling</label>
+          <br>
+          <label for="colorbalk">kleur verpakking</label>
+          <input type="color" id="colorbalk">
+          <br>
+          <span id="gegevens"><b> BEWAAR JE GEGEVENS</b></span
+            ><span id="punt"><b>.</b></span
+            ><br />
+            <span id="vraag-titel">Handig voor de volgende keer.</span>
+            <br>
+            <label for="Wachtwoord">Wachtwoord</label>
+            <input type="text" name="Wachtwoord" id="Wachtwoord" /><br><span>minimaal 6 karakters verder doen we niet moeilijk</span>
+            <br>
+            <label for="Wachtwoord bevestigen">Wachtwoord bevestigen</label>
+            <input type="text" name="Wachtwoord bevestigen" id="Wachtwoord bevestigen" />
+            <br>
+            <input type="submit" name="verder" id="verder">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
