@@ -1,44 +1,90 @@
 @charset "utf-8";
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-.header{
-    width: 100%;
-    height: 50px;
+
+#header {
+    /* position: absolute; */
     background-color: #0090E3;
+    width: 100%;
+    height: 60px;
     overflow: hidden;
 }
-.logoblue1{
-    width: 60px;
-    height: 60px;
-    margin-top: -5px;
-    margin-left: 20px;
+
+body #logo {
+    margin-left: 30px;
+    margin-top: -22px;
+    width: 100px;
+    height: 100px;
 }
-#punt{
-    color: #ff6600;
-    font-weight: bold;
+
+#text-mm {
+    text-align: right;
+    line-height: 40px;
 }
-#gegevens{
+
+#text-mm label {
+    margin: 5px;
+}
+
+#left {
+    display: inline-block;
+    width: 900px;
+}
+
+#right {
+    display: inline-block;
+    line-height: 40px;
+}
+
+#titel-gegevens {
+    font-size: 20px;
     color: #2C579E;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: 125px;
 }
-#vraag-titel{
-    font-size: 15px;
+
+#titel-punt {
+    font-size: 20px;
+    color: #FF6600;
+}
+
+#titel-vraag {
+    font-family: 'Times New Roman', Times, serif;
     color: #4FB5FF;
-    margin-left: 125px;
 }
-#nr-box{
-    width: 50px;
-}
-#tussv{
-    width: 65px;
-}
+
+#naam {width: 65px;}
+
+.huis-nr {width: 50px;}
+
+.huis-nr-toev {width: 50px;}
+
 #color-orange {color: #FF6600;}
-#colorbalk{
-    width: 140px;
-    height: 20px;
+
+#custom-color {
+    width: 100px;
+}
+
+#verder {
+    box-shadow: 0 3px 0 0 #008b00;
+    background-color: #00BA01;
+    color: #FFF;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 75ms;
+}
+
+#verder:hover {
+    opacity: 85%;
+}
+
+#verder:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 0 #008b00;
+    opacity: 75%;
+}
+#wwbevest{
+    /* margin-top: 200px; */
 }
